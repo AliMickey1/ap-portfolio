@@ -13,7 +13,7 @@ export const projects = [
       description:
         "Built a home page and menu page that the business desired using some CSS styling and responsive design",
       image: '../src/Assets/projectImg/Bar-grill-img.png',
-    //   link: "https://reedbarger.com",
+      link: "https://github.com/AliMickey1/BloomTech-Bar-Grill",
     },
     // {
     //   title: "DevChat",
