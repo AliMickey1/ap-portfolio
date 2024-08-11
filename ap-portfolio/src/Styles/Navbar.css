@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    display: flex;
+    height: 80px;
+    
+
+    /* background-color: hwb(0 100% 0%); */
+    /* border: 3px rgb(141, 182, 209) solid; */
+}
+
+img{
+    height: 65%;
+    border: 3px dashed;
+}
+
+nav{
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Gloria+Hallelujah&family=Homemade+Apple&family=Just+Me+Again+Down+Here&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+DK+Uloopet:wght@100..400&family=Sacramento&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    display: flex;
+    max-height: 100%;
+    max-width: 100%;
+    justify-content: space-evenly;
+}
+
+.projects{
+    border: 5px red dotted;
+    width: 75%;
+
+}
+
+.graphics{
+    border: 5px greenyellow dotted;
+    width: 20%;
+}

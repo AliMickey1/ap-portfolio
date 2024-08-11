@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Gloria+Hallelujah&family=Homemade+Apple&family=Just+Me+Again+Down+Here&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+DK+Uloopet:wght@100..400&family=Sacramento&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    color: white;
+    font-size: 35px;
+}
+
+h3{
+    color:white;
+    font-size: 25px;
+}
+
+h4{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: square;
+    line-height: 1.5;
+}
+
+.professional-summary{
+    width: 100%;
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Lexend Deca", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+
+.sections{
+    display: flex;
+    font-family: "Lexend Deca";
+    justify-content: space-evenly;
+
+}
+
+.experience-section{
+    background-color: rgb(41, 93, 224);
+    border: 3px solid white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience div{
+    border: white 5px solid;
+    margin: 25px;
+}
+
+.experience p{
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.education-section{
+    background-color: rgb(41, 93, 224);
+    border: 3px solid white;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education-section div{
+    margin: 10px;
+}
+
+.education p{
+    font-size: 15px;
+}
+/* 
+.cert-section{
+    background-color: rgb(41, 93, 224);
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+section h1{
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+}
+
+
+.education{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.education div{
+    border: 2px solid white;
+    padding: 10px;
+
+}
+
+.education img{
+    max-width: 10rem;
+    float: left;
+    margin: 15px;
+    border: 3px rgb(1, 1, 47) solid;
+    
+}
+
+.education p{
+    width: 90%;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.education h5{
+    margin-left: 20%;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.certifications img{
+    width: 7rem;
+    display: inline-block;
+    border: 10px solid transparent; /* This creates the space */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.certifications{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;   
+    position: relative;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.divider{
+    height: 30px;
+}
+
+.certifications h1{
+    padding: 20px;
+}
+
+.skills p{
+    width: 85%;
+    border: red 3x solid;
+}

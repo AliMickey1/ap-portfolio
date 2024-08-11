@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Aliceson Phillips Portfolio</title>
+</head>
+<body>
+  <header>
+    <svg xmlns="http://www.w3.org/2000/svg" width="61" height="32">
+      <path fill="#33323D" fill-rule="evenodd"
+        d="M60.082 5.878L44.408 32 28.735 5.878h31.347zM15.673 0l15.674 26.122H0L15.673 0z" />
+    </svg>
+    <nav>
+      <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="portfolio">Portfolio</a></li>
+        <li><a href="contact">Contact Me</a></li>
+    </ul>
+    </nav>
+  </header>
+  <div class="top-container">
+    <div style="z-index: 0; position: relative;" class="manage-img">
+      <img src="starter-code/images/homepage/desktop/image-homepage-hero@2x.jpg">
+    </div> <!-- manage img -->
+    <div style="z-index: 1; position: relative;" class ="big-intro">
+      <h1>Hey, I’m Aliceson Phillips and I love building beautiful websites</h1>
+      <button class="about-me-btn" onclick="scrollToAboutMe()">
+        <span class="btn-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14">
+            <g fill="none" fill-rule="evenodd" stroke="#5FB4A2">
+              <path d="M0 9l8 4 8-4" />
+              <path opacity=".5" d="M0 5l8 4 8-4" />
+              <path opacity=".25" d="M0 1l8 4 8-4" />
+            </g>
+          </svg>
+        </span> <!-- button icon span-->
+        <span>About Me</span> <!--about me span-->
+      </button> <!--about me button -->
+    </div> <!-- big intro -->
+  </div> <!-- top container -->
+  
+
+  <div class="about-me">
+    <h1>About Me</h1>
+    <p>I’m a junior front-end developer looking for a new role in an exciting company. 
+    I focus on writing accessible HTML, using modern CSS practices and writing clean 
+    JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to 
+    whatever tools are required. I’m based in London, UK, but I’m happy working remotely 
+    and have experience in remote teams. When I’m not coding, you’ll find me outdoors. 
+    I love being out in nature whether that’s going for a walk, run or cycling. I’d love 
+    you to check out my work.</p>
+    <button>Go to Portfolio</button>
+  </div> <!-- about me -->
+  <div class="project-interest">
+    <h1>Interested in doing a project together?</h1>
+    <button>Contact Me</button>
+  </div>
+  <footer>
+    <nav>
+      <a>Home</a>
+      <a>Portfolio</a>
+      <a>Contact Me</a>
+    </nav>
+    <div class="social">
+      <img src="starter-code/images/icons/linkedin.svg">
+      <img src="starter-code/images/icons/twitter.svg">
+      <img src="starter-code/images/icons/github.svg">
+    </div>
+  </footer>
+</body>
+</html>

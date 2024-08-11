@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.contact-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact-wrapper{
+    justify-content: space-evenly;
+}
+
+.contact-section{
+    float: left;
+}
+
+.info-section{
+    float: right;
+}
+
+ .page-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px 'Lexend', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+
+
+h1{
+    text-align: center;
+    font-family: "Lexend";
+    font-size: 30px;
+    width: 100%;
+}
+
+form{
+    font-family: "Lexend";
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+    /* border: 3px rgb(255, 3, 137) dashed; */
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+
+}
+
+li{
+    line-height: 4;
+
+}
+
+span {
+    color: red; /* Customize the asterisk color */
+}
+
+
+h4{
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+label{
+    color: white;
+    text-align: center;
+
+}
+
+.message textarea {
+    width: 100%;
+    background-color: #1f80c0;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 2px white solid;
+    font: 700 15px 'Lexend', sans-serif;
+
+}
+
+.msg-type {
+    font-size: 15px;
+    display: inline-block;
+    
+}
+
+.msg-types{
+    /* border: 2px white solid; */
+    /* padding: 20px; */
+    margin: 20px;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.send-btn{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: rgb(10, 4, 112);
+    font: 700 15px 'Oswald', sans-serif;
+}
+
+/* CSS */
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.button-73:hover {
+  background-color: #0992f4;
+  box-shadow: #f6f6f7 0 -6px 8px inset;
+  transform: scale(1.125);
+  color: white;
+
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+
+
+
+@media (min-width: 768px) {
+    .button-73 {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .button-36 {
+      padding: 0 2.6rem;
+    }
+  }

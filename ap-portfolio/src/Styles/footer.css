@@ -1,0 +1,86 @@
+
+
+h3{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* Right contact section */
+
+.contact-info-section{
+    /* border: 3px green dashed; */
+    /* max-width: 400px; */
+    width: 65%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Location, Phone, Email Section */
+.contact-info {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+  }
+  
+  .contact-info-item {
+    line-height: 4;
+    color: #ffffff;
+     font: 300 18px 'Lexend', sans-serif;
+    letter-spacing: 1.9px;
+    color: #fdfbfb;
+  }
+  
+  .place {
+    margin-left: 40px;
+    color: #fdfbfb;
+
+  }
+  
+  .phone {
+    color: #fdfbfb;
+
+  }
+  
+  .gmail {
+    color: #fdfbfb;
+
+  }
+  
+  a, li {
+    color: #faf6f6;
+    margin-left: 40px;
+
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  a:hover {
+    color: #2623dc;
+    text-decoration: none;
+  }
+  
+.social-contact{
+    display: flex;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social-contact{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+}
+  

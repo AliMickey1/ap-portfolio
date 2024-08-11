@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Gloria+Hallelujah&family=Homemade+Apple&family=Just+Me+Again+Down+Here&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+DK+Uloopet:wght@100..400&family=Sacramento&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url('../Assets/background.png');
+}
+
+.container{
+    display: flex;
+}
+
+.home{
+    font-family: "Lexend Deca";
+}
+
+h2{
+    text-align: center;
+    color: darkblue;
+}
+
+
+
+.info p{
+    font-family: "Gloria Hallelujah";
+    font-size: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.info{
+    border-radius: 15px;
+    background-color: rgb(33, 33, 95);
+    display: flex;
+    margin-top: 40px;
+    height: 75%;
+    margin-right: 30px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    position: relative;
+    padding: 10px;
+}
+
+.info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #27ae60;
+    z-index: -1;
+  }
+
+.info h2{
+    color:rgb(141, 182, 209);
+    font-family: "Just Me Again Down Here";
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.name h1{
+    color:rgb(141, 182, 209);
+    font-size: 40px;
+    font-family: "Homemade Apple";
+    margin-left: 200px;
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid rgb(141, 182, 209);; /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: 
+        typing 10s steps(20, end) forwards,
+        blink .8s infinite;
+
+    /* animation: typing 12s steps(40, end), blink-caret 0.75s step-end infinite; */
+    /* animation-iteration-count: infinite; */
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 55% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(247, 247, 249); }
+  }
+
+
+.my-pic img {
+    align-content: center;
+    margin-left: 50px;
+    /* margin-right: auto; */
+    width: 95%;
+    border: 0px;
+    /* margin-bottom: 0px; */
+    /* border: 3px white dotted; */
+  }
+
+
+  
