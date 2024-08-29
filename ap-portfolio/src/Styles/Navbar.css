@@ -2,27 +2,31 @@
 
 header {
     display: flex;
-    height: 80px;
-    
-
-    /* background-color: hwb(0 100% 0%); */
-    /* border: 3px rgb(141, 182, 209) solid; */
+    justify-content: flex-end;
+    height: 60px;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: left;
 }
 
 img{
-    height: 65%;
+    height: 80%;
     border: 3px dashed;
 }
 
 nav{
-    justify-content: space-evenly;
     flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 
 }
 
 .nav-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     list-style: none;
     padding: 0;

@@ -9,32 +9,37 @@ h3{
 /* Right contact section */
 
 .contact-info-section{
-    /* border: 3px green dashed; */
-    /* max-width: 400px; */
-    width: 65%;
-    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+
 }
 
 /* Location, Phone, Email Section */
 .contact-info {
     list-style-type: none;
-    margin-left: -30px;
-    padding-right: 20px;
+    margin-left: -80px;
+    justify-content: space-around;
+  
   }
   
   .contact-info-item {
-    line-height: 4;
+    line-height: 6;
     color: #ffffff;
-     font: 300 18px 'Lexend', sans-serif;
+     font: 300 14px 'Lexend', sans-serif;
     letter-spacing: 1.9px;
     color: #fdfbfb;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    
   }
   
   .place {
-    margin-left: 40px;
-    color: #fdfbfb;
+       color: #fdfbfb;
 
   }
   
@@ -50,10 +55,9 @@ h3{
   
   a, li {
     color: #faf6f6;
-    margin-left: 40px;
-
     text-decoration: none;
     transition-duration: 0.2s;
+    
   }
   
   a:hover {
@@ -63,7 +67,6 @@ h3{
   
 .social-contact{
     display: flex;
-    
 }
 
 ul {
@@ -72,15 +75,13 @@ ul {
 
 .social-contact{
     position: relative;
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    display: inline-block;
-    margin: 10px 3px;
-    line-height: 60px;
     border-radius: 50%;
     color: #fff;
     cursor: pointer; 
     transition: all .2s ease-in-out;
+    padding: 0;
+    gap: 10px;
 }
-  

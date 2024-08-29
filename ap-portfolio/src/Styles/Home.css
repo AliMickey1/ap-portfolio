@@ -64,6 +64,7 @@ h2{
     font-size: 40px;
     font-family: "Homemade Apple";
     margin-left: 200px;
+    text-decoration: none;
 
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 0.15em solid rgb(141, 182, 209);; /* The typewriter cursor */

@@ -32,7 +32,7 @@ function Contact() {
 
                 <h1 className="page-header">Contact Me</h1>
                 <section id="contact-section">
-                    <div classname="contact-form">
+                    <div className="contact-form">
                         <form className="contact-wrapper" onSubmit={handleSubmit}>
                             <div className="fname">
                                 <input type="text" placeholder="FIRST & LAST NAME"
@@ -51,7 +51,7 @@ function Contact() {
                         {/* Message section */}
                             <div className="message">
                                 <label>Message</label>
-                                <textarea class="form-control" 
+                                <textarea className="form-control" 
                                 rows="10" name="msg" required 
                                 onChange={event => setMessage(event.target.value)}
                                 />

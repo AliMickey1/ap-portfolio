@@ -3,11 +3,11 @@ import React from "react";
 
 function Upper() {
     return (
-        <div class="top-container">
+        <div className="top-container">
 
             <h1>Hey, I’m Aliceson Phillips and I love building beautiful websites</h1>
-            <button class="about-me-btn" onclick="scrollToAboutMe()">
-                <span class="btn-icon">
+            <button className="about-me-btn" onclick="scrollToAboutMe()">
+                <span className="btn-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14">
                     <g fill="none" fill-rule="evenodd" stroke="#5FB4A2">
                     <path d="M0 9l8 4 8-4" />
