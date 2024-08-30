@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.264b7ec4.css",
+    "main.js": "/static/js/main.124e8792.js",
+    "static/js/453.5248dcab.chunk.js": "/static/js/453.5248dcab.chunk.js",
+    "static/media/background.png": "/static/media/background.66d72b7763f0fa64e22e.png",
+    "static/media/umw.png": "/static/media/umw.15bec5abd90cd694b2f8.png",
+    "static/media/iste-certified-educator.png": "/static/media/iste-certified-educator.6147ca33a2b9375e919d.png",
+    "static/media/bloomtechlogo.jpg": "/static/media/bloomtechlogo.5f59c21ea84add4fdb69.jpg",
+    "static/media/libertyu.png": "/static/media/libertyu.97537ef2bbfcf376f8b8.png",
+    "static/media/HiAli": "/static/media/HiAli.61829cf96114c9ced5b7",
+    "static/media/NearpodCch.png": "/static/media/NearpodCch.7d92056a91f0c247997c.png",
+    "static/media/Home.png": "/static/media/Home.be77aeada198b99cc8e2.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.e6e3340111b492fa4c94.png",
+    "static/media/Resume.png": "/static/media/Resume.65c30cbf9b3e72b6d264.png",
+    "static/media/ContactBtn.png": "/static/media/ContactBtn.195bd791d2d40a68c1da.png",
+    "static/media/Microsoft Inn.png": "/static/media/Microsoft Inn.7a1320edfc352b3a50be.png",
+    "static/media/AppleTeacher_black.png": "/static/media/AppleTeacher_black.6c3b7b8c13bd2a2f1555.png",
+    "index.html": "/index.html",
+    "main.264b7ec4.css.map": "/static/css/main.264b7ec4.css.map",
+    "main.124e8792.js.map": "/static/js/main.124e8792.js.map",
+    "453.5248dcab.chunk.js.map": "/static/js/453.5248dcab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.264b7ec4.css",
+    "static/js/main.124e8792.js"
+  ]
+}
