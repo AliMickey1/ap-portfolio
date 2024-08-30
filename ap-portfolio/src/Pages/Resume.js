@@ -1,10 +1,10 @@
 import React from "react";
 import '../Styles/Resume.css'
-import MIE from '../Assets/CertificationBadges/Microsoft Innovator badge.png';
+import MIE from '../Assets/CertificationBadges/Microsoft Inn.png';
 import apple from '../Assets/CertificationBadges/AppleTeacher_black.png';
 import ISTE from '../Assets/CertificationBadges/iste-certified-educator.png';
-import Minecraft from '../Assets/CertificationBadges/Minecraft Educator Certified.png';
-import Nearpod from '../Assets/CertificationBadges/NearpodCoachBadge.png';
+import Minecraft from '../Assets/CertificationBadges/MinecraftCert.png';
+import Nearpod from '../Assets/CertificationBadges/NearpodCch.png';
 import UMW from '../Assets/icons/umw.png';
 import LU from '../Assets/icons/libertyu.png';
 import Bloom from '../Assets/icons/bloomtechlogo.jpg';
